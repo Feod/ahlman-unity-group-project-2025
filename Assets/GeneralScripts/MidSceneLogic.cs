@@ -7,9 +7,8 @@ using TMPro;
 public class MidSceneLogic : MonoBehaviour
 {
 
+    //UI Referenssit:
     [SerializeField] private TextMeshProUGUI otsikkoLabel;
-
-
     [SerializeField] private TextMeshProUGUI scoreLabel;
     [SerializeField] private TextMeshProUGUI livesLabel;
 
@@ -18,6 +17,7 @@ public class MidSceneLogic : MonoBehaviour
         UpdateLabels();
         StartCoroutine(MidSceneAnimaatio());
     }
+
 
     IEnumerator MidSceneAnimaatio()
     {

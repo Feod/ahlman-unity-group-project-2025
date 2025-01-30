@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -300,6 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f692ae2b58b2db243a316527e2a78d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otsikkoLabel: {fileID: 479646985}
   scoreLabel: {fileID: 598051628}
   livesLabel: {fileID: 223881277}
 --- !u!1 &479646983
