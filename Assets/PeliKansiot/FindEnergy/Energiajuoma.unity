@@ -270,6 +270,8 @@ GameObject:
   m_Component:
   - component: {fileID: 696015407}
   - component: {fileID: 696015406}
+  - component: {fileID: 696015408}
+  - component: {fileID: 696015409}
   m_Layer: 0
   m_Name: "Eskot-Ja-SinisetLehm\xF6t_14"
   m_TagString: Untagged
@@ -344,6 +346,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &696015408
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696015405}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.91}
+    newSize: {x: 0.75, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.75, y: 1.91}
+  m_EdgeRadius: 0
+--- !u!114 &696015409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696015405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 696015406}
+  OGesko: {fileID: -2057672070, guid: e7f504d197107ba488d33413961e72fd, type: 3}
+  JuomaID: 5
 --- !u!1 &745123057
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,8 +416,9 @@ GameObject:
   m_Component:
   - component: {fileID: 745123059}
   - component: {fileID: 745123058}
+  - component: {fileID: 745123060}
   m_Layer: 0
-  m_Name: "Eskot-Ja-SinisetLehm\xF6t_10"
+  m_Name: Energia Haave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +465,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1297595115, guid: e7f504d197107ba488d33413961e72fd, type: 3}
+  m_Sprite: {fileID: 2137559332, guid: 18498b0b26dd2504389b6e8ebd050b76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -428,6 +491,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &745123060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745123057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b922d54464b33e4f8dbcb4a36b1d0df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Haavejuomarenderer: {fileID: 745123058}
+  Haavejuomat:
+  - {fileID: 1297595115, guid: e7f504d197107ba488d33413961e72fd, type: 3}
+  - {fileID: 2137559332, guid: 18498b0b26dd2504389b6e8ebd050b76, type: 3}
+  - {fileID: 1679134240, guid: e7f504d197107ba488d33413961e72fd, type: 3}
+  HaavejuomaID: 0
 --- !u!1 &837761472
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +519,8 @@ GameObject:
   m_Component:
   - component: {fileID: 837761474}
   - component: {fileID: 837761473}
+  - component: {fileID: 837761476}
+  - component: {fileID: 837761477}
   m_Layer: 0
   m_Name: PatteriEnergiajuomat_0
   m_TagString: Untagged
@@ -507,11 +590,71 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.37, y: 1.4, z: 0}
-  m_LocalScale: {x: 0.1939, y: 0.1939, z: 0.1939}
+  m_LocalScale: {x: 0.72217363, y: 0.72217363, z: 0.72217363}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &837761476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837761472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 837761473}
+  OGesko: {fileID: 2137559332, guid: 18498b0b26dd2504389b6e8ebd050b76, type: 3}
+  JuomaID: 1
+--- !u!61 &837761477
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837761472}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6212949, y: 1.5763158}
+    newSize: {x: 2.3609207, y: 5.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6212949, y: 1.5763158}
+  m_EdgeRadius: 0
 --- !u!1 &850194656
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,6 +733,8 @@ GameObject:
   m_Component:
   - component: {fileID: 983344350}
   - component: {fileID: 983344349}
+  - component: {fileID: 983344351}
+  - component: {fileID: 983344352}
   m_Layer: 0
   m_Name: PatteriEnergiajuomat_3
   m_TagString: Untagged
@@ -658,12 +803,72 @@ Transform:
   m_GameObject: {fileID: 983344348}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 2.63, z: 0}
-  m_LocalScale: {x: 0.1939, y: 0.1939, z: 0.1939}
+  m_LocalPosition: {x: 0.9, y: 2.6, z: 0}
+  m_LocalScale: {x: 0.7149093, y: 0.7149093, z: 0.7149093}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &983344351
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983344348}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.62392753, y: 1.5789474}
+    newSize: {x: 2.3709247, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.62392753, y: 1.5789474}
+  m_EdgeRadius: 0
+--- !u!114 &983344352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983344348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 983344349}
+  OGesko: {fileID: -303344461, guid: 18498b0b26dd2504389b6e8ebd050b76, type: 3}
+  JuomaID: 3
 --- !u!1 &1210816089
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +981,8 @@ GameObject:
   - component: {fileID: 1494632431}
   - component: {fileID: 1494632430}
   - component: {fileID: 1494632429}
+  - component: {fileID: 1494632432}
+  - component: {fileID: 1494632433}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -933,9 +1140,39 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2.75}
+  m_AnchoredPosition: {x: 0, y: 3.7}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1494632432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494632428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 0}
+  OGesko: {fileID: 0}
+  JuomaID: 0
+--- !u!114 &1494632433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494632428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 0}
+  OGesko: {fileID: 0}
+  JuomaID: 0
 --- !u!1 &1497035492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,6 +1267,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1504273503}
   - component: {fileID: 1504273502}
+  - component: {fileID: 1504273504}
+  - component: {fileID: 1504273505}
   m_Layer: 0
   m_Name: PatteriEnergiajuomat_12
   m_TagString: Untagged
@@ -1099,11 +1338,71 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.06, y: 0.19, z: 0}
-  m_LocalScale: {x: 0.19119272, y: 0.19119272, z: 0.19119272}
+  m_LocalScale: {x: 0.743797, y: 0.743797, z: 0.743797}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1504273504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504273501}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.62392753, y: 1.5789474}
+    newSize: {x: 2.3709247, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.62392753, y: 1.5789474}
+  m_EdgeRadius: 0
+--- !u!114 &1504273505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504273501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 1504273502}
+  OGesko: {fileID: 1821038692, guid: 18498b0b26dd2504389b6e8ebd050b76, type: 3}
+  JuomaID: 4
 --- !u!1 &1686153368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,8 +1413,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1686153370}
   - component: {fileID: 1686153369}
+  - component: {fileID: 1686153372}
+  - component: {fileID: 1686153373}
   m_Layer: 0
-  m_Name: "Eskot-Ja-SinisetLehm\xF6t_10 (1)"
+  m_Name: OGesko
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1188,6 +1489,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1686153372
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686153368}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.9}
+    newSize: {x: 0.75, y: 1.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.75, y: 1.9}
+  m_EdgeRadius: 0
+--- !u!114 &1686153373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686153368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 1686153369}
+  OGesko: {fileID: 1297595115, guid: e7f504d197107ba488d33413961e72fd, type: 3}
+  JuomaID: 0
 --- !u!1 &1753091758
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1559,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1753091760}
   - component: {fileID: 1753091759}
+  - component: {fileID: 1753091761}
+  - component: {fileID: 1753091762}
   m_Layer: 0
   m_Name: PatteriEnergiajuomat_4
   m_TagString: Untagged
@@ -1266,12 +1629,72 @@ Transform:
   m_GameObject: {fileID: 1753091758}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.501036, y: -1.02, z: 0}
-  m_LocalScale: {x: 0.18460913, y: 0.18460913, z: 0.18460913}
+  m_LocalPosition: {x: -5.501036, y: -1, z: 0}
+  m_LocalScale: {x: 0.69460714, y: 0.69460714, z: 0.69460714}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1753091761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753091758}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6186623, y: 1.5789474}
+    newSize: {x: 2.3509169, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6186623, y: 1.5789474}
+  m_EdgeRadius: 0
+--- !u!114 &1753091762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753091758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 1753091759}
+  OGesko: {fileID: -2104863774, guid: 18498b0b26dd2504389b6e8ebd050b76, type: 3}
+  JuomaID: 6
 --- !u!1 &1989779866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1705,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1989779868}
   - component: {fileID: 1989779867}
+  - component: {fileID: 1989779869}
+  - component: {fileID: 1989779870}
   m_Layer: 0
   m_Name: "Eskot-Ja-SinisetLehm\xF6t_12"
   m_TagString: Untagged
@@ -1356,6 +1781,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1989779869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989779866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebca4e1c90928f744938cc8e266612ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRenderer: {fileID: 1989779867}
+  OGesko: {fileID: 1679134240, guid: e7f504d197107ba488d33413961e72fd, type: 3}
+  JuomaID: 2
+--- !u!61 &1989779870
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989779866}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.75, y: 1.91}
+    newSize: {x: 0.75, y: 1.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.75, y: 1.91}
+  m_EdgeRadius: 0
 --- !u!1001 &1104876230951410782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1460,6 +1945,10 @@ PrefabInstance:
     - target: {fileID: 73303152377820043, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987583278394242238, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
+      propertyPath: pelinKestoSekunneissa
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5222201404603154872, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
       propertyPath: m_Name
