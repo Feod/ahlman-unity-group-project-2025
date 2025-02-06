@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
-
+using TMPro;
 
 public class HitTheBalls : MonoBehaviour
 {
@@ -12,11 +12,8 @@ public class HitTheBalls : MonoBehaviour
     public GameObject Water;
     public GameObject Water_Place;
     public GameObject HIT;
-    private void Start()
-    {
-        Water.SetActive(false);
-        Water_Place.SetActive(false);
-    }
+    public TextMeshProUGUI SmackCounter;
+
     private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Space)) 
@@ -49,6 +46,8 @@ public class HitTheBalls : MonoBehaviour
     public void BallsSmacked()
     {
         SmackCount++;
+
+        SmackCounter.text = string.Format("{00} / 50", SmackCount);
     }
     
 }
