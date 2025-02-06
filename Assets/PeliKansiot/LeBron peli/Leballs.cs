@@ -7,13 +7,14 @@ public class BasketballShooter : MonoBehaviour
 {
     public GameObject basketballPrefab; // Assign your basketball prefab in the inspector
     public Transform shootPoint; // Assign a point where the ball should spawn from
-    public float shootForce = 10f;
-
+    public float shootForce = 500f;
+    bool bronshootie = false;
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) // Left mouse button
         {
             ShootBall();
+            
         }
     }
 
