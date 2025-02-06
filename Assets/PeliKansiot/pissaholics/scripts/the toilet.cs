@@ -12,6 +12,7 @@ public class thetoilet : MonoBehaviour
     {
         hooray = GetComponent<AudioSource>();
     }
+
     private void OnMouseOver()
     {
         //if mouse over shitter should display message
