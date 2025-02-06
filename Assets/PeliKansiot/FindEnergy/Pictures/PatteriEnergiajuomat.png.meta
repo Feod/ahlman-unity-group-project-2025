@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 785
+        width: 236
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9eaf3b7b2eb8142b79069afa3f65d2
+      internalID: 2137559332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 785
+        width: 236
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7b4ea38a3b36a4ea5168e250d057f1
+      internalID: -1331588708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 785
+        width: 235
+        height: 599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6d65fbd4e06c44e89ed6f994a5ac34
+      internalID: 1205156439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_3
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 796
+        width: 237
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef88f05cd0af65439121ad3aef318e8
+      internalID: -303344461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_4
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 796
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c8ed97c2cc0a408e32043ed7e1b52
+      internalID: -2104863774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_5
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 796
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974dd15473258f4ea6a44fe65049df0
+      internalID: 1279676260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_6
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 796
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9843ff0e8f5f3a745b5adef4f7136675
+      internalID: 1654401043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f23af903eb0e349977bc83439d30ca
+      internalID: -2136032579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 15
+        width: 237
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818c81455afdad745b33d8c59e65cbd6
+      internalID: -2112781131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_9
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 17
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac858f0e03fa3446a5aee35e7cc1aaf
+      internalID: -138275565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_10
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 0
+        width: 236
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef95373279cfa24387e9d2e8041334e
+      internalID: 1265500332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_11
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb15e22bcc0677340a606da8d3cae169
+      internalID: -1372257014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_12
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 237
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10a8df598b2c0947b9fd3f3fbf37ff5
+      internalID: 1821038692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PatteriEnergiajuomat_13
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 0
+        width: 235
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad0121dc91687544a1cad407c583ff1
+      internalID: 1863329157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +400,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PatteriEnergiajuomat_0: 2137559332
+      PatteriEnergiajuomat_1: -1331588708
+      PatteriEnergiajuomat_10: 1265500332
+      PatteriEnergiajuomat_11: -1372257014
+      PatteriEnergiajuomat_12: 1821038692
+      PatteriEnergiajuomat_13: 1863329157
+      PatteriEnergiajuomat_2: 1205156439
+      PatteriEnergiajuomat_3: -303344461
+      PatteriEnergiajuomat_4: -2104863774
+      PatteriEnergiajuomat_5: 1279676260
+      PatteriEnergiajuomat_6: 1654401043
+      PatteriEnergiajuomat_7: -2136032579
+      PatteriEnergiajuomat_8: -2112781131
+      PatteriEnergiajuomat_9: -138275565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
