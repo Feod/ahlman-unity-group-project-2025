@@ -63,7 +63,7 @@ public class MidSceneLogic : MonoBehaviour
     void LataaSeuraavaPeliscene()
     {
         //Tallenna satunnainen numer 2 (ensimm‰isen peliscenen numero) ja scenejen koko lukum‰‰r‰n v‰lilt‰.
-        int satunnainenScene = Random.Range(2, SceneManager.sceneCount);
+        int satunnainenScene = Random.Range(2, SceneManager.sceneCountInBuildSettings);
 
         //Siirry t‰h‰n satunnaiseen sceneen
         SceneManager.LoadScene(satunnainenScene);
