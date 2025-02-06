@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+
 public class HitTheBalls : MonoBehaviour
 {
     public int SmackCount = 0;
-    void Update()
+    private void update()
         {
             if (Input.GetKeyDown(KeyCode.Space)) 
             {
@@ -18,6 +20,7 @@ public class HitTheBalls : MonoBehaviour
             if (SmackCount == 50)
             {
                 PelisceneLogiikka.instance.PeliPaattyi(true);
+                gameObject.GetComponent<Timelimit>().enabled = false;
             }
         }
          

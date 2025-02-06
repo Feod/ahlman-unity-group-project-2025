@@ -11,12 +11,12 @@ public class Timelimit : MonoBehaviour
     public bool timerOn = false;
     public TextMeshProUGUI TimerTxt;
 
-    private void Start()
+    public void Start()
     {
         timerOn = true;
     }
 
-    private void Update()
+    public void Update()
     {
         if (timerOn)
         {
