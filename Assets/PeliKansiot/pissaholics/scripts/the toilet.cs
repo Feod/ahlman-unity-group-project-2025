@@ -8,6 +8,9 @@ public class thetoilet : MonoBehaviour
 
     public AudioSource hooray;
 
+    public GameObject pacifists;
+    public GameObject neutrals;
+    public GameObject genocides;
     private void Start()
     {
         hooray = GetComponent<AudioSource>();
@@ -20,6 +23,10 @@ public class thetoilet : MonoBehaviour
 
         if(hooray.isPlaying == false)
             hooray.Play();
+
+        pacifists.SetActive(true);
+        neutrals.SetActive(false);
+        genocides.SetActive(false);
 
         PelisceneLogiikka.instance.PeliPaattyi(true);
     }
