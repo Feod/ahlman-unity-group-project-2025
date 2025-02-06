@@ -11,17 +11,17 @@ public class thecat : MonoBehaviour
     public SpriteRenderer catRenderer;
     public Sprite soggycat;
 
-    
     private void Start()
     {
         why = GetComponent<AudioSource>();
         catRenderer = GetComponent<SpriteRenderer>();
     }
-
+    
     void ChangeSprite()
     {
         catRenderer.sprite = soggycat;
     }
+    
     private void OnMouseOver()
     {
         //if mouse over shitter should display message
