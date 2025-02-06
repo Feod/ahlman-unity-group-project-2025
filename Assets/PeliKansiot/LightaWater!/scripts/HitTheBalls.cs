@@ -9,6 +9,14 @@ using UnityEngine.Rendering;
 public class HitTheBalls : MonoBehaviour
 {
     public int SmackCount = 0;
+    public GameObject Water;
+    public GameObject Water_Place;
+    public GameObject HIT;
+    private void Start()
+    {
+        Water.SetActive(false);
+        Water_Place.SetActive(false);
+    }
     private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Space)) 
@@ -17,18 +25,24 @@ public class HitTheBalls : MonoBehaviour
                 BallsSmacked();
                 
             }
+            if (SmackCount == 10)
+            { 
+                
+            }
             if (SmackCount == 50)
             {
                 gameObject.GetComponent<Timelimit>().enabled = false;
-                StartCoroutine(WaitFunction());
+                //StartCoroutine(WaitFunction());
                 PelisceneLogiikka.instance.PeliPaattyi(true);
-                
+                Water.SetActive(true);
+                Water_Place.SetActive(true);
+                HIT.SetActive(false);
             }
         }
          
     IEnumerator WaitFunction()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(100f);
         Debug.Log("secunti kului");
     }
 
