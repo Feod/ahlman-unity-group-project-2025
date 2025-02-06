@@ -43,6 +43,8 @@ public class FlyMovement_Miikka : MonoBehaviour
     public void KarpanenKuoli()
     {
 
+        Cursor.visible = true;
+
         kuoliSound.Play();
 
         //Onko animaatio t‰ll‰ hetkell‰ p‰‰ll‰
