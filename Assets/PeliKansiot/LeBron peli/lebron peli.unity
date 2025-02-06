@@ -246,8 +246,8 @@ Transform:
   m_GameObject: {fileID: 57357694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.65, y: -0.49, z: 0}
-  m_LocalScale: {x: 1.05, y: 1.1, z: 2.8}
+  m_LocalPosition: {x: 7.98, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.25199997, y: 1.1, z: 2.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1173,7 +1173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2015251346374372264, guid: 33fa6b366248aea449bcd02e9c489bac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4345246226262807248, guid: 33fa6b366248aea449bcd02e9c489bac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1268,13 +1268,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2987583278394242238, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
+      propertyPath: pelinKestoSekunneissa
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5222201404603154872, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
       propertyPath: m_Name
       value: PelisceneGeneralLogic
       objectReference: {fileID: 0}
     - target: {fileID: 5222201404603154872, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
