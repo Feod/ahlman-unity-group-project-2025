@@ -11,6 +11,9 @@ public class thecat : MonoBehaviour
     public SpriteRenderer catRenderer;
     public Sprite soggycat;
 
+    public GameObject neutrals;
+    public GameObject genocides;
+
     private void Start()
     {
         why = GetComponent<AudioSource>();
@@ -31,6 +34,9 @@ public class thecat : MonoBehaviour
             why.Play();
 
         ChangeSprite();
+
+        neutrals.SetActive(false);
+        genocides.SetActive(true);
 
         PelisceneLogiikka.instance.PeliPaattyi(false);
     }
