@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PeliKansiot/FindEnergy/Energiajuoma.unity
     guid: e3cbbe3f5cdd19044b4804ad4f16a657
+  - enabled: 1
+    path: Assets/PeliKansiot/trampoliini peli/Scenes/TrampoliiniScene.unity
+    guid: 3f4384aa8e0c52045887f251782177f1
   m_configObjects: {}

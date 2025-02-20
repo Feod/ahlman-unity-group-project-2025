@@ -16,9 +16,9 @@ public class FlipScoreCounter : MonoBehaviour
     private int flipScore = 0;
 
     private Rigidbody2D rb;
-    private const float rotationThreshold = 330f; // Degrees per point
+    private const float rotationThreshold = 300f; // Degrees per point
     private const int winScore = 5; // Score needed to win
-    private const float landingTolerance = 10f; // Stricter landing (±10°)
+    private const float landingTolerance = 20f; // Stricter landing (±10°)
     private bool gameOver = false; // Track if game has ended
 
     void Start()
@@ -64,6 +64,8 @@ public class FlipScoreCounter : MonoBehaviour
                 // Add additional points for flips
                 if (flipCompleted)
                 {
+                    PelisceneLogiikka.instance.PeliPaattyi(true);
+
                     score += flipScore;
                     Debug.Log($"🏆 Landed {flipScore * 330}°! Gained {flipScore} points! New Score: {score}");
                 }

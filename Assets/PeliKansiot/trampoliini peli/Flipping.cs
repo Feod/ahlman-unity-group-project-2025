@@ -44,13 +44,17 @@ public class Flipping : MonoBehaviour
             float angle = Mathf.Abs(transform.eulerAngles.z);
             if (angle < 10 || angle > 350)
             {
+                //PelisceneLogiikka.instance.PeliPaattyi(true);
+
                 Debug.Log("Landed Upright! Good Job!");
             }
             else
             {
+                PelisceneLogiikka.instance.PeliPaattyi(false);
+
                 Debug.Log("Game Over! You crashed.");
-                Time.timeScale = 0; // Stops the game
-                Debug.Log("Press R to Restart.");
+                //Time.timeScale = 0; // Stops the game
+                //Debug.Log("Press R to Restart.");
             }
         }
     }
