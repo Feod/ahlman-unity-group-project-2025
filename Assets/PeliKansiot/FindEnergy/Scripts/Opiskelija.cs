@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class Opiskelija : MonoBehaviour
 {
+
+    //Opiskelija
+    public SpriteRenderer opiskelijaRenderer;
+    public Sprite spriteIloinenOpiskelija;
+    public Sprite spriteSurullinenOpiskelija;
+
+
+    //----
+
     public SpriteRenderer Haavejuomarenderer;
     public Sprite[] Haavejuomat;
     public int HaavejuomaID;
@@ -19,6 +28,21 @@ public class Opiskelija : MonoBehaviour
         Haavejuomarenderer.sprite = Haavejuomat[HaavejuomaID];
 
     }
+
+    public void MuutaOpiskelijanSprite(bool iloinen)
+    {
+
+        if(iloinen == true)
+        {
+            opiskelijaRenderer.sprite = spriteIloinenOpiskelija;
+        }
+        else
+        {
+            opiskelijaRenderer.sprite = spriteSurullinenOpiskelija;
+        }
+
+    }
+
 
     
 }
