@@ -14,9 +14,9 @@ public class PelisceneLogiikka : MonoBehaviour
     public static PelisceneLogiikka instance;
     private void Awake()
     {
-
         instance = this;
     }
+
 
     private void Start()
     {
