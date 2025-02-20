@@ -1,0 +1,23 @@
+TOIMINNOT:
+
+Kärpäsen liikkuminen				DONE
+
+Kärpäslätkä
+	Seuraa hiirtä (Asettuu hiiren alle)	DONE
+	Lätkäsee toiminto
+		Animaatio			
+		Osumatunnistus
+
+	Pysäytä lätkän liikkuminen, kun pelaaja huitaisee
+	
+ÄÄNET:
+	Win
+	Lose
+	Hit
+	Hit + Splät
+	Music
+
+KUVAT:
+	Kärpänen (2x sprite)			DONE
+	Kuollut kärpänen			DONE
+	Lätkä					DONE

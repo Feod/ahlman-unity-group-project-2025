@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: e7f504d197107ba488d33413961e72fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 75
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac3c77ca8cc1774981e3204c6014b5e
+      internalID: 1518179904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_1"
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 212
+        width: 74
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a8115a2b5f8b438e17e532771c4ab
+      internalID: 1868809123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_2"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 212
+        width: 75
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21f627b55d4e934c9af248a78661d5d
+      internalID: 1917494520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_3"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 212
+        width: 74
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3e5b5577166ed4583706751617afa4
+      internalID: 613197933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_4"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 211
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f63089280df684b9c3a9fa5323f272
+      internalID: 1346370099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_5"
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 211
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89a241fd66f1024389fe2854238091f
+      internalID: -1992337163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_6"
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 211
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d748f857c7abc2498db5d7af6a5643c
+      internalID: 467460509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_7"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 212
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0c9d10724945241849019795c774eb
+      internalID: -1516546968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_8"
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 211
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d08c33ac9c81341ab252a88445f721
+      internalID: 1037463838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_9"
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 211
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ea98b5dad7a374887850b01147ab69
+      internalID: -1460874523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_10"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 5
+        width: 75
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf51c91ec4b3754e9ca7b9ea168e8cb
+      internalID: 1297595115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_11"
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38214ef0999cc84ab34b746aaeaf49d
+      internalID: 1546482154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_12"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0361a450bca21846a92f7f48e9ff2d1
+      internalID: 1679134240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_13"
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c02c67700ae74ab7358f1900935dd
+      internalID: -1642921212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_14"
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2
+        width: 75
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5b2639df42f94d918b73c463455f2
+      internalID: -2057672070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_15"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f65394da113c4489aa98111c2ff440
+      internalID: 184250123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_16"
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019e02f72c8239146989b7104d9aec2b
+      internalID: 781573528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Eskot-Ja-SinisetLehm\xF6t_17"
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b85919dccd08bf4dabe186941e7d99f
+      internalID: 331725260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Eskot-Ja-SinisetLehm\xF6t_0": 1518179904
+      "Eskot-Ja-SinisetLehm\xF6t_1": 1868809123
+      "Eskot-Ja-SinisetLehm\xF6t_10": 1297595115
+      "Eskot-Ja-SinisetLehm\xF6t_11": 1546482154
+      "Eskot-Ja-SinisetLehm\xF6t_12": 1679134240
+      "Eskot-Ja-SinisetLehm\xF6t_13": -1642921212
+      "Eskot-Ja-SinisetLehm\xF6t_14": -2057672070
+      "Eskot-Ja-SinisetLehm\xF6t_15": 184250123
+      "Eskot-Ja-SinisetLehm\xF6t_16": 781573528
+      "Eskot-Ja-SinisetLehm\xF6t_17": 331725260
+      "Eskot-Ja-SinisetLehm\xF6t_2": 1917494520
+      "Eskot-Ja-SinisetLehm\xF6t_3": 613197933
+      "Eskot-Ja-SinisetLehm\xF6t_4": 1346370099
+      "Eskot-Ja-SinisetLehm\xF6t_5": -1992337163
+      "Eskot-Ja-SinisetLehm\xF6t_6": 467460509
+      "Eskot-Ja-SinisetLehm\xF6t_7": -1516546968
+      "Eskot-Ja-SinisetLehm\xF6t_8": 1037463838
+      "Eskot-Ja-SinisetLehm\xF6t_9": -1460874523
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

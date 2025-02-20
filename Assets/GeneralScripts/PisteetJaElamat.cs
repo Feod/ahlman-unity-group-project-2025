@@ -9,17 +9,21 @@ public class PisteetJaElamat : MonoBehaviour
     [HideInInspector] public bool peliOnAlkanut;
     [HideInInspector] public bool onnistuikoPelaajaViimePelissa;
 
+    //Äänet:
+    [SerializeField] private AudioSource sound_Voitto;
+    [SerializeField] private AudioSource sound_Havio;
+
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(this.gameObject);
             InitGame();
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
         }
     }
 
@@ -33,6 +37,16 @@ public class PisteetJaElamat : MonoBehaviour
 
     public void IlmoitaPelattuPeliJaSenLopputulos(bool onnistuikoPelaaja)
     {
+
+        if (onnistuikoPelaaja)
+        {
+            sound_Voitto.Play();
+        }
+        else
+        {
+            sound_Havio.Play();
+        }
+
         onnistuikoPelaajaViimePelissa = onnistuikoPelaaja;
     }
 

@@ -14,4 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PeliKansiot/EsimerkkiPeli/EsimerkkiScene.unity
     guid: 62969f8557f034648b66a020d7061849
+  - enabled: 1
+    path: Assets/PeliKansiot/LightaWater!/LightaWater!.unity
+    guid: 82dbdfdde9bd0dc4791c79c27577301d
+  - enabled: 1
+    path: Assets/PeliKansiot/LeBron peli/lebron peli.unity
+    guid: bde7078c33c565d4f8af7514f17cbd97
+  - enabled: 1
+    path: Assets/PeliKansiot/pissaholics/pissing.unity
+    guid: 8b0cbdabd5d14b2498f32083a68eb86b
+  - enabled: 1
+    path: Assets/PeliKansiot/ClickTheButton/nappipeli.unity
+    guid: 9ac7080b4a6ce2a43af148d71f2a0301
+  - enabled: 1
+    path: Assets/PeliKansiot/CatchAFly/CatchAFlyPeli.unity
+    guid: d496f86b2e49f414391c1c24ce5d35b7
+  - enabled: 1
+    path: Assets/PeliKansiot/TuckInTheCat/TuckInTheCat.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/PeliKansiot/FindEnergy/Energiajuoma.unity
+    guid: e3cbbe3f5cdd19044b4804ad4f16a657
   m_configObjects: {}

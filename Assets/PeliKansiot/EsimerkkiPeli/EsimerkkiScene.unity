@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -852,6 +853,10 @@ PrefabInstance:
     - target: {fileID: 73303152377820043, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987583278394242238, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
+      propertyPath: pelinKestoSekunneissa
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5222201404603154872, guid: 9176a36188735c749a01c04ef13e57c7, type: 3}
       propertyPath: m_Name

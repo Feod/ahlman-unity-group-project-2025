@@ -12,8 +12,11 @@ public class MidSceneLogic : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreLabel;
     [SerializeField] private TextMeshProUGUI livesLabel;
 
+    [SerializeField] private GameObject playAgainButton;
+
     void Start()
     {
+        playAgainButton.SetActive(false);
         UpdateLabels();
         StartCoroutine(MidSceneAnimaatio());
     }
@@ -31,10 +34,18 @@ public class MidSceneLogic : MonoBehaviour
             if (PisteetJaElamat.instance.onnistuikoPelaajaViimePelissa)
             {
                 PisteetJaElamat.instance.AddPoints(1);
+
+                //Animoi scorelabel
+                LeanTween.scale(scoreLabel.gameObject, Vector3.one * 3f, 0.6f).setEase(LeanTweenType.punch);
+
             }
             else
             {
                 PisteetJaElamat.instance.LoseLife();
+
+                //Animoi livesLabel
+                LeanTween.scale(livesLabel.gameObject, Vector3.one * 3f, 0.6f).setEase(LeanTweenType.punch);
+
             }
             UpdateLabels();
         }
@@ -49,9 +60,23 @@ public class MidSceneLogic : MonoBehaviour
         }
         else
         {
+            //Peli p‰‰ttyi
             otsikkoLabel.text = "Peli p‰‰ttyi.";
+
+            //Korosta pisteet
+            LeanTween.scale(scoreLabel.gameObject, Vector3.one * 1.5f, 0.4f).setEase(LeanTweenType.easeOutBack);
+
+            //Odota sekuntti
+            yield return new WaitForSeconds(1f);
+
+            //Paljasta play again button
+            playAgainButton.SetActive(true);
+            LeanTween.scale(playAgainButton, Vector3.one * 1.2f, 0.5f).setEase(LeanTweenType.punch);
+
         }
     }
+
+   
 
 
     void UpdateLabels()
@@ -63,11 +88,13 @@ public class MidSceneLogic : MonoBehaviour
     void LataaSeuraavaPeliscene()
     {
         //Tallenna satunnainen numer 2 (ensimm‰isen peliscenen numero) ja scenejen koko lukum‰‰r‰n v‰lilt‰.
-        int satunnainenScene = Random.Range(2, SceneManager.sceneCount);
+        int satunnainenScene = Random.Range(2, SceneManager.sceneCountInBuildSettings);
 
         //Siirry t‰h‰n satunnaiseen sceneen
         SceneManager.LoadScene(satunnainenScene);
         
     }
+
+    
 
 }
