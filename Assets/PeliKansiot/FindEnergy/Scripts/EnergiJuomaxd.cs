@@ -34,8 +34,17 @@ public class EnergiJuomaxd : MonoBehaviour
 
         if (Opiskelija.instance.Haavejuomarenderer.sprite == canRenderer.sprite)
         {
+            Opiskelija.instance.MuutaOpiskelijanSprite(true);
             PelisceneLogiikka.instance.PeliPaattyi(true);
         }
+        else
+        {
+            //V‰‰r‰ juoma. Tee opiskelijasta vihainen
+            Opiskelija.instance.MuutaOpiskelijanSprite(false);
+        }
+
+
+
     }
 
 
